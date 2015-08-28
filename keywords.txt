@@ -1,0 +1,16 @@
+#######################################
+# Syntax Coloring Map For RobotWheels
+####################################### 
+# Class
+#######################################
+
+RobotNeck360	KEYWORD1
+
+#######################################
+# Methods and Functions 
+#######################################	
+
+attach	KEYWORD2
+rotateClockwise	KEYWORD2
+rotateCounterclockwise	KEYWORD2
+center	KEYWORD2
