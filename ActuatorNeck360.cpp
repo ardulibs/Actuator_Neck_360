@@ -1,12 +1,12 @@
 /*
- * RobotNeck360
+ * ActuatorNeck360
  * Version 0.1.0 May, 2015
  * Copyright 2015 Diego de los Reyes
  *
  * Controls the neck of a robot using a continous rotation servo.
  */
 
-#include "RobotNeck360.h"
+#include "ActuatorNeck360.h"
 #include "Arduino.h"
 
    
@@ -15,7 +15,7 @@
 /**
  * Construct.
  */
-RobotNeck360::RobotNeck360()
+ActuatorNeck360::ActuatorNeck360()
 {
 }
 
@@ -25,7 +25,7 @@ RobotNeck360::RobotNeck360()
  * Attach the given pins.
  * @param pin: pin where the servo is connected.
  */
-void RobotNeck360::attach(int pin)
+void ActuatorNeck360::attach(int pin)
 {
 	neck.attach(pin);
 }
@@ -33,7 +33,7 @@ void RobotNeck360::attach(int pin)
 /**
  * Rotates left.
  */
-void RobotNeck360::rotateClockwise()
+void ActuatorNeck360::rotateClockwise()
 {
 	neck.write(stop_position-10);
 	delay(800);
@@ -43,7 +43,7 @@ void RobotNeck360::rotateClockwise()
 /**
  * Rotates Right.
  */
-void RobotNeck360::rotateCounterclockwise()
+void ActuatorNeck360::rotateCounterclockwise()
 {
 	neck.write(stop_position+10);
 	delay(800);
@@ -53,7 +53,7 @@ void RobotNeck360::rotateCounterclockwise()
 /**
  * Goes to the center.
  */
-void RobotNeck360::center()
+void ActuatorNeck360::center()
 {
 	neck.write(stop_position);
 }

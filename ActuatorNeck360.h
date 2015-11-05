@@ -1,19 +1,19 @@
 /*
- * RobotNeck360
+ * ActuatorNeck360
  * Version 0.1.0 May, 2015
  * Copyright 2015 Diego de los Reyes
  *
  * Controls the neck of a robot using a continous rotation servo.
  */
 
-#ifndef RobotNeck360_h
-#define RobotNeck360_h
+#ifndef ActuatorNeck360_h
+#define ActuatorNeck360_h
 #define LIBRARY_VERSION	 0.1
 
 #include <Servo.h>
 
-// Class RobotNeck360
-class RobotNeck360 {
+// Class ActuatorNeck360
+class ActuatorNeck360 {
  
 	/** Public elements. **/
 	public:
@@ -21,7 +21,7 @@ class RobotNeck360 {
 		/**
 		 * Construct.
 		 */
-		RobotNeck360();
+		ActuatorNeck360();
 	
 		/**
 		 * Attach the given pins.

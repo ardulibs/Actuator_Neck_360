@@ -1,10 +1,10 @@
 #######################################
-# Syntax Coloring Map For RobotWheels
+# Syntax Coloring Map For ActuatorNeck360
 ####################################### 
 # Class
 #######################################
 
-RobotNeck360	KEYWORD1
+ActuatorNeck360	KEYWORD1
 
 #######################################
 # Methods and Functions 
